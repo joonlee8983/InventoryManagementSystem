@@ -1,7 +1,8 @@
 .env
 __pycache__/
 *.py[cod]
-.venv
+venv
+.idea
 .DS_Store
 .vscode/
 .dev.db
