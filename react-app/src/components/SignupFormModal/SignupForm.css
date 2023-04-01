@@ -30,7 +30,6 @@ h1{
 input{
     display:flex;
     flex-direction:column;
-    /* padding: 5px; */
     margin-bottom: 5px;
     width: 97%;
 }
