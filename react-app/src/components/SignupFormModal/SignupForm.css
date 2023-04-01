@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 200%;
+    margin-bottom: 0;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#modal-content{
+    border-radius:5px;
+}
+
+.signUpFormModal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:15px;
+    width:325px;
+    height:250px;
+    border-radius:10px;
+    font-size:13px;
+}
+
+input{
+    display:flex;
+    flex-direction:column;
+    /* padding: 5px; */
+    margin-bottom: 5px;
+    width: 97%;
+}
+
+.signUpBtn{
+    font-family: 'Poppins', sans-serif;
+    margin-top:10px;
+    background-color:#044b9b;
+    border-radius:0.3em;
+    border:none;
+    color: #fff;
+    padding: 0.5em;
+}
+.signUpBtn:hover{
+    cursor:pointer;
+    background-color: #369dbe;
+}
